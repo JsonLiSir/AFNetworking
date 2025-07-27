@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
     ss.tvos.dependency 'AFNetworking/Reachability'
     ss.dependency 'AFNetworking/Security'
 
-    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
+    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h', 'AFNetworking/PrivacyInfo.xcprivacy'
   end
 
   s.subspec 'UIKit' do |ss|
