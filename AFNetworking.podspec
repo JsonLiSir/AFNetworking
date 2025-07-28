@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.tvos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.AFNetworking' }
 
   s.source_files = 'AFNetworking/AFNetworking.h'
+  s.resource_bundles = {'AFNetworking' => ['PrivacyInfo.xcprivacy']}
 
   s.subspec 'Serialization' do |ss|
     ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
